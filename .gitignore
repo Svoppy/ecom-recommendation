@@ -1,0 +1,11 @@
+# Local raw CSV stays uncompressed for convenience; the lossless gzip copy is versioned.
+dataset/kz.csv
+
+# Generated previews, training logs, Python/Jupyter noise
+.build/
+catboost_info/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+results/smoke_results.csv
+results/smoke_results.json
